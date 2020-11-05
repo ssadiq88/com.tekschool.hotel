@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Hotel Website Data Driven Framework" duration-ms="12581" started-at="2020-11-04T01:14:24Z" finished-at="2020-11-04T01:14:37Z">
+    <groups>
+    </groups>
+    <test name="Login to Hotel Page Dashboard" duration-ms="12581" started-at="2020-11-04T01:14:24Z" finished-at="2020-11-04T01:14:37Z">
+      <class name="tests.LoginTest">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:tests.LoginTest@2de8284b]" name="beforeMethod" is-config="true" duration-ms="9711" started-at="2020-11-04T01:14:24Z" finished-at="2020-11-04T01:14:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="loginToHotel(java.lang.String, java.lang.String)[pri:0, instance:tests.LoginTest@2de8284b]" name="loginToHotel" duration-ms="2053" started-at="2020-11-04T01:14:34Z" finished-at="2020-11-04T01:14:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[student@test.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[welcome1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToHotel -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.LoginTest@2de8284b]" name="afterMethod" is-config="true" duration-ms="775" started-at="2020-11-04T01:14:36Z" finished-at="2020-11-04T01:14:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- tests.LoginTest -->
+    </test> <!-- Login to Hotel Page Dashboard -->
+  </suite> <!-- Hotel Website Data Driven Framework -->
+</testng-results>
